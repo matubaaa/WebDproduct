@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "myfont1";
+    src: url(fonts/Futura-LigObl.ttf);
+}
+
+
+.title img{
+    width: 900px;
+    height: 237px;
+    display:block;
+    margin: 0 auto;
+}
+.title p{
+   font-family: "myfont1";
+   font-size: 45px;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 44px;
+   font-weight: 100px;
+}
+.title{
+ 
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    
+}
+.intro h1{
+    color: #3d5cdb;
+    font-size: 53px;
+    text-align: center;
+}
+.intro p{
+    font-size: 16px;
+    color: #333333;
+}
+.intro img{
+    width: 500px;
+    height: 333px;
+}
+.intro1{
+    display: flex;
+}
